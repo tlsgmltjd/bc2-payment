@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  width: 100%;
+  background-color: white;
+  font-family: "Poppins", "Noto Sans KR", sans-serif;
+}
+
+.container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.box {
+  border-radius: 55px;
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: 1px 12px 15px 1px rgba(0, 0, 0, 0.25);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 90%;
+  width: 90%;
+  gap: 100px;
+}
+
+.paytext {
+  color: black;
+  font-weight: 550;
+  font-size: 50px;
+}
+
+.success {
+  color: rgba(19, 225, 15, 0.6);
+  font-weight: 700;
+  font-size: 40px;
+  margin: 0;
+}
+
+.btn {
+  cursor: pointer;
+  border: none;
+  padding: 18px 35px;
+  border-radius: 20px;
+  background-color: #4257ec;
+  color: white;
+  font-weight: 700;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+.infobox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}

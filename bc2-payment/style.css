@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  width: 100%;
+  background-color: #282d54;
+  font-family: "Poppins", "Noto Sans KR", sans-serif;
+}
+
+.container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  color: white;
+  font-size: 90px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.bankImg {
+  position: fixed;
+  top: -80px;
+  right: 0;
+}
+
+.logoImg {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+.paytext {
+  color: black;
+}
