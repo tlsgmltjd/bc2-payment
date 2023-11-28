@@ -40,7 +40,7 @@ body {
   margin: 0;
 }
 
-.btn {
+#btn {
   cursor: pointer;
   border: none;
   padding: 18px 35px;
